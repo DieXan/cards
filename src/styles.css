@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(255, 255, 255, 0.01);
+  border-radius: 2px;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  margin-bottom: 20%;
+  background:rgb(146, 146, 146);
+  border-radius: 15px;
+}
+
+.mainCard{
+  display: flex;
+  background:rgb(203, 203, 203);
+  height: 256px;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 15px;
+}
+
+.stats{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: Arial, Helvetica, sans-serif;  
+  justify-items: center;
+}
+
+#badAnswer{
+  color: red;
+}
+#goodAnswer{
+  color: green;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+}
+
+.Knopki{
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: Arial, Helvetica, sans-serif;  
+  justify-items: center
+}
+
+button{
+  border: 1px solid rgba(255, 255, 255, 0.01);
+  border-radius: 8px;
+  width: 100px;
+  height: 25px;
+  box-shadow: 0 9px #666;
+  color: white;
+}
+
+#but-red{
+  background-color: #f44336;
+}
+#but-blue{
+  background-color: #227aff;
+}
+#but-green{
+  background-color: #2cfa52;
+}
+
+#but-red:hover{
+  background-color: #e03e32;
+}
+#but-blue:hover{
+  background-color: #1959b8;
+}
+#but-green:hover{
+  background-color: #20af3a;
+}
+
+#but-red:active {
+  box-shadow: 0 5px #353535;
+  transform: translateY(4px);
+}
+#but-blue:active {
+  box-shadow: 0 5px #353535;
+  transform: translateY(4px);
+}
+#but-green:active {
+  box-shadow: 0 5px #353535;
+  transform: translateY(4px);
+}
